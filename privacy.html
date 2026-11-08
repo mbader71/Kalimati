@@ -103,7 +103,7 @@
   <!-- ============ ARABIC ============ -->
   <section dir="rtl">
     <h1>سياسة الخصوصية — كلمتي</h1>
-    <p class="meta">آخر تحديث: ١٤ مايو ٢٠٢٦ &nbsp;•&nbsp; <a href="#english" class="lang-toggle">English ↓</a></p>
+    <p class="meta">آخر تحديث: ٨ نوفمبر ٢٠٢٦ &nbsp;•&nbsp; <a href="#english" class="lang-toggle">English ↓</a></p>
 
     <div class="card">
       <p>
@@ -115,22 +115,29 @@
     <h2>١. ما الذي نجمعه؟</h2>
     <div class="card">
       <p>
-        تطبيق كلمتي مُصمَّم ليعمل دون جمع أي بيانات شخصية. لا نطلب منك إنشاء حساب،
-        ولا نجمع اسمك أو بريدك الإلكتروني أو رقم هاتفك أو موقعك.
+        لا نطلب منك إنشاء حساب، ولا نجمع نحن اسمك أو بريدك الإلكتروني أو رقم هاتفك،
+        ولا يرسل التطبيق أي بيانات إلى خوادمنا. أما شريكنا الإعلاني Unity Ads فيجمع
+        بعض البيانات لعرض الإعلانات، وهي موضّحة في القسم ٣.
       </p>
       <p>
-        البيانات الوحيدة التي يحتفظ بها التطبيق هي معلومات اللعبة المحفوظة محليًا على جهازك فقط:
+        يحتفظ التطبيق بمعلومات اللعبة محليًا على جهازك فقط:
       </p>
       <ul>
         <li>إحصائياتك (عدد الجولات، نسبة الفوز، السلسلة، توزيع المحاولات)</li>
-        <li>تاريخ آخر «كلمة اليوم» أتممتها</li>
-        <li>تفضيلاتك (الفئة المختارة، تفعيل النمط الصعب)</li>
-        <li>رصيد التلميحات المتبقي</li>
+        <li>تاريخ آخر «كلمة اليوم» أتممتها وتقدّمك فيها</li>
+        <li>تفضيلاتك (الفئة المختارة، تفعيل النمط الصعب، الأصوات)</li>
+        <li>رصيد التلميحات وتجميدات السلسلة</li>
+        <li>عدّادات تنظيم الإعلانات (مثل عدد الجولات منذ آخر إعلان)</li>
         <li>ما إذا كنت قد أكملت شاشة التعريف</li>
       </ul>
       <p>
-        كل هذه البيانات محفوظة في <span class="mono">UserDefaults</span> الخاص بجهازك،
+        هذه البيانات محفوظة في <span class="mono">UserDefaults</span> الخاص بجهازك،
         ولا تُرسَل إلى أي خادم. عند حذف التطبيق، تُحذف هذه البيانات نهائيًا.
+      </p>
+      <p>
+        إذا سجّلت الدخول إلى <strong>Game Center</strong>، تُرسَل نتائجك وإنجازاتك
+        ولوحات الصدارة إلى Apple وتخضع لسياسة خصوصية Apple. نعرض داخل التطبيق اسمك
+        المستعار وصورتك في Game Center فقط ضمن لوحات الصدارة.
       </p>
     </div>
 
@@ -148,28 +155,61 @@
       </ul>
     </div>
 
-    <h2>٣. تحليلات الاستخدام والإعلانات</h2>
+    <h2>٣. الإعلانات وتحليلاتها</h2>
     <div class="card">
       <p>
-        لا يستخدم تطبيق كلمتي أي خدمات تحليلات (Analytics)،
-        ولا يعرض أي إعلانات، ولا يضمّ مكتبات تتبّع من جهات خارجية.
+        لا يستخدم تطبيق كلمتي أي خدمة تحليلات خاصة به. تعرض النسخة المجانية إعلانات
+        تقدّمها <strong>Unity Ads</strong> (شركة Unity Technologies). تُزال إعلانات
+        البانر والإعلانات البينية بشراء «إزالة الإعلانات» لمرة واحدة أو باشتراك بريميوم
+        فعّال. أما الإعلانات المكافِئة فلا تظهر إلا عندما تختار مشاهدتها مقابل تلميح أو جولة إضافية.
       </p>
+      <p>
+        لعرض الإعلانات وقياس أدائها، قد تجمع Unity Ads البيانات التالية:
+      </p>
+      <ul>
+        <li><strong>المعرّفات:</strong> معرّف الإعلانات (IDFA) — فقط إذا سمحت بالتتبّع — ومعرّف خاص بـ Unity لتشغيل الخدمة.</li>
+        <li><strong>الموقع التقريبي:</strong> على مستوى الدولة، مستنتج من عنوان IP (لا نستخدم الموقع الدقيق إطلاقًا).</li>
+        <li><strong>بيانات الاستخدام:</strong> التفاعل مع الإعلانات (الظهور، النقرات، المشاهدات المكتملة) وبيانات استخدام أخرى متعلقة بالإعلانات.</li>
+        <li><strong>سجل المشتريات:</strong> معلومات عامة عن المشتريات داخل التطبيق لأغراض قياس الإعلانات.</li>
+        <li><strong>بيانات التشخيص:</strong> بيانات الأداء مثل سرعة تحميل الإعلانات واستهلاك الطاقة.</li>
+        <li><strong>بيانات أخرى:</strong> معلومات الجهاز مثل الطراز، ونظام التشغيل، واللغة، وحجم الشاشة، ونوع الاتصال، لعرض إعلانات متوافقة.</li>
+        <li><strong>الدعم:</strong> إذا أبلغتَ عن إعلان غير لائق، قد تُرسل Unity محتوى البلاغ.</li>
+      </ul>
+      <ul>
+        <li>
+          يُستخدم معرّف الإعلانات (IDFA) <strong>للتتبّع</strong> وتخصيص الإعلانات فقط
+          إذا منحت إذن «شفافية تتبّع التطبيقات». إذا رفضت، تظهر الإعلانات دون تخصيص
+          باستخدام هذا المعرّف.
+        </li>
+        <li>
+          تخضع معالجة هذه البيانات
+          <a href="https://unity.com/legal/privacy-policy">لسياسة خصوصية Unity</a>.
+        </li>
+        <li>
+          يتضمّن التطبيق معرّفات SKAdNetwork من Apple حتى يقيس المعلنون عمليات التثبيت
+          بطريقة مجمّعة تحافظ على الخصوصية دون التعرّف عليك.
+        </li>
+      </ul>
     </div>
 
     <h2>٤. الأذونات</h2>
     <div class="card">
       <p>
-        لا يطلب التطبيق أي أذونات حساسة. لا يستخدم الموقع الجغرافي،
-        ولا الكاميرا، ولا الميكروفون، ولا جهات الاتصال، ولا الإشعارات.
-        الاتصال بالإنترنت مطلوب فقط لإتمام عمليات الشراء عبر StoreKit واستعادة المشتريات.
+        قد يطلب التطبيق مرة واحدة <strong>إذن التتبّع</strong> (شفافية تتبّع التطبيقات)
+        لتخصيص الإعلانات، ورفضه لا يؤثر على اللعب. وقد يطلب إذن
+        <strong>الإشعارات</strong> لتذكيرك بكلمة اليوم. لا يصل التطبيق إلى الموقع الدقيق
+        ولا الكاميرا ولا الميكروفون ولا جهات الاتصال. الاتصال بالإنترنت مطلوب لتحميل
+        الإعلانات، وإتمام المشتريات واستعادتها، ومزامنة Game Center.
       </p>
     </div>
 
     <h2>٥. خصوصية الأطفال</h2>
     <div class="card">
       <p>
-        يناسب التطبيق جميع الأعمار. وبما أننا لا نجمع أي بيانات شخصية،
-        فلا يوجد ما نخزّنه عن أي مستخدم بمن فيهم الأطفال دون سن ١٣ عامًا.
+        التطبيق ليس موجّهًا للأطفال دون سن ١٣ عامًا. نحن لا نجمع بيانات شخصية عن أي
+        مستخدم، لكن شريكنا الإعلاني يجمع البيانات الموضّحة في القسم ٣. إذا كنت وليّ أمر
+        وتعتقد أن طفلك دون ١٣ عامًا يستخدم التطبيق، يمكنك إيقاف التتبّع من إعدادات الجهاز
+        أو التواصل معنا عبر البريد أدناه.
       </p>
     </div>
 
@@ -177,6 +217,9 @@
     <div class="card">
       <ul>
         <li>يمكنك حذف جميع بياناتك المحلية بحذف التطبيق من جهازك.</li>
+        <li>يمكنك إيقاف التتبّع في أي وقت من <em>الإعدادات &lt; الخصوصية والأمن &lt; التتبّع</em>.</li>
+        <li>لطلب الوصول إلى البيانات التي جمعتها Unity أو حذفها، راجع
+          <a href="https://unity.com/legal/privacy-policy">سياسة خصوصية Unity</a>.</li>
         <li>يمكنك إدارة أو إلغاء الاشتراكات من <em>الإعدادات &lt; Apple ID &lt; الاشتراكات</em>.</li>
         <li>لاستعادة المشتريات على جهاز جديد، استخدم زر «استعادة المشتريات» داخل التطبيق.</li>
       </ul>
@@ -195,7 +238,7 @@
     <div class="card">
       <p>
         لأي استفسار حول هذه السياسة، يُرجى التواصل عبر البريد الإلكتروني:
-        <a href="mailto:privacy@kalimati.app">privacy@kalimati.app</a>
+        <a href="mailto:simplicityapps@outlook.com">simplicityapps@outlook.com</a>
       </p>
     </div>
   </section>
@@ -205,7 +248,7 @@
   <!-- ============ ENGLISH ============ -->
   <section class="ltr" id="english">
     <h1>Privacy Policy — Kalimati</h1>
-    <p class="meta">Last updated: May 14, 2026 &nbsp;•&nbsp; <a href="#" class="lang-toggle">العربية ↑</a></p>
+    <p class="meta">Last updated: November 8, 2026 &nbsp;•&nbsp; <a href="#" class="lang-toggle">العربية ↑</a></p>
 
     <div class="card">
       <p>
@@ -217,23 +260,30 @@
     <h2>1. What we collect</h2>
     <div class="card">
       <p>
-        Kalimati is designed to work without collecting any personal information.
-        We do not require you to create an account, and we do not collect your name,
-        email address, phone number, or location.
+        We do not require you to create an account, we do not collect your name,
+        email address, or phone number, and the app sends no data to our own servers.
+        Our advertising partner, Unity Ads, collects some data to show ads; this is
+        described in section 3.
       </p>
       <p>
-        The only data the app retains is game state, stored locally on your device:
+        The app keeps game state locally on your device:
       </p>
       <ul>
-        <li>Your statistics (games played, win rate, current streak, guess distribution)</li>
-        <li>The date of your last completed "Word of the Day"</li>
-        <li>Your preferences (selected category pack, Hard Mode toggle)</li>
-        <li>Your remaining hint balance</li>
+        <li>Your statistics (games played, win rate, streaks, guess distribution)</li>
+        <li>The date of your last completed "Word of the Day" and your progress in it</li>
+        <li>Your preferences (selected category pack, Hard Mode, sounds)</li>
+        <li>Your hint balance and streak freezes</li>
+        <li>Ad pacing counters (such as rounds since the last ad)</li>
         <li>Whether you have completed onboarding</li>
       </ul>
       <p>
-        All of the above is stored in your device's <span class="mono">UserDefaults</span>
-        and is never transmitted to any server. Deleting the app permanently removes this data.
+        This data is stored in your device's <span class="mono">UserDefaults</span>
+        and is never transmitted to any server. Deleting the app permanently removes it.
+      </p>
+      <p>
+        If you sign in to <strong>Game Center</strong>, your scores, achievements, and
+        leaderboard entries are sent to Apple and are subject to Apple's privacy policy.
+        Inside the app we show your Game Center nickname and photo only on leaderboards.
       </p>
     </div>
 
@@ -251,28 +301,65 @@
       </ul>
     </div>
 
-    <h2>3. Analytics &amp; advertising</h2>
+    <h2>3. Advertising &amp; ad analytics</h2>
     <div class="card">
       <p>
-        Kalimati uses no analytics services, displays no advertisements,
-        and includes no third-party tracking libraries.
+        Kalimati uses no analytics services of its own. The free version of the
+        app shows advertisements served by <strong>Unity Ads</strong> (Unity
+        Technologies). Banner and interstitial ads are removed by the one-time
+        "Remove Ads" purchase or an active Kalimati Pro subscription. Rewarded
+        ads are shown only when you choose to watch one in exchange for a hint
+        or a bonus round.
       </p>
+      <p>
+        To serve and measure ads, Unity Ads may collect:
+      </p>
+      <ul>
+        <li><strong>Identifiers:</strong> the advertising identifier (IDFA) — only if you allow tracking — and a Unity-specific ID used to operate the service.</li>
+        <li><strong>Coarse location:</strong> country-level location derived from your IP address (precise location is never used).</li>
+        <li><strong>Usage data:</strong> ad interactions (impressions, clicks, completed views) and other ad-related usage data.</li>
+        <li><strong>Purchase history:</strong> general in-app purchase information, for ad measurement.</li>
+        <li><strong>Diagnostics:</strong> performance data such as ad loading speed and energy use.</li>
+        <li><strong>Other data:</strong> device information such as model, OS version, language, screen size, and connection type, to show compatible ads.</li>
+        <li><strong>Support:</strong> if you report an ad, Unity may receive the content of your report.</li>
+      </ul>
+      <ul>
+        <li>
+          The advertising identifier (IDFA) is used for <strong>tracking</strong> and ad
+          personalisation only if you grant App Tracking Transparency permission. If you
+          decline, ads are still shown but are not personalised using that identifier.
+        </li>
+        <li>
+          Unity's handling of this data is described in the
+          <a href="https://unity.com/legal/privacy-policy">Unity Privacy Policy</a>.
+        </li>
+        <li>
+          The app includes Apple's SKAdNetwork identifiers so advertisers can
+          measure installs in a privacy-preserving, aggregated way without
+          identifying you.
+        </li>
+      </ul>
     </div>
 
     <h2>4. Permissions</h2>
     <div class="card">
       <p>
-        The app requests no sensitive permissions. It does not access location,
-        camera, microphone, contacts, or notifications. Internet connectivity is
-        required only to complete StoreKit purchases and to restore previous purchases.
+        The app may ask once for <strong>tracking permission</strong>
+        (App Tracking Transparency) so that ads can be personalised; declining has
+        no effect on gameplay. It may also ask to send <strong>notifications</strong>
+        for daily-word reminders. It does not access precise location, camera,
+        microphone, or contacts. Internet connectivity is required to load
+        advertisements, complete and restore purchases, and sync Game Center.
       </p>
     </div>
 
     <h2>5. Children's privacy</h2>
     <div class="card">
       <p>
-        The app is suitable for all ages. Because we do not collect any personal data,
-        we hold no information about any user, including children under 13.
+        The app is not directed at children under 13. We do not collect personal data
+        about any user, but our advertising partner collects the data described in
+        section 3. If you are a parent and believe your child under 13 is using the app,
+        you can turn off tracking in the device's settings or contact us at the address below.
       </p>
     </div>
 
@@ -280,6 +367,9 @@
     <div class="card">
       <ul>
         <li>You can delete all local data by uninstalling the app.</li>
+        <li>You can turn off tracking at any time in <em>Settings &gt; Privacy &amp; Security &gt; Tracking</em>.</li>
+        <li>To access or delete data collected by Unity, see the
+          <a href="https://unity.com/legal/privacy-policy">Unity Privacy Policy</a>.</li>
         <li>You can manage or cancel subscriptions from <em>Settings &gt; Apple ID &gt; Subscriptions</em>.</li>
         <li>To restore purchases on a new device, use the "Restore Purchases" button inside the app.</li>
       </ul>
@@ -298,7 +388,7 @@
     <div class="card">
       <p>
         For any question about this policy, please email
-        <a href="mailto:privacy@kalimati.app">privacy@kalimati.app</a>.
+        <a href="mailto:simplicityapps@outlook.com">simplicityapps@outlook.com</a>.
       </p>
     </div>
   </section>
