@@ -103,7 +103,7 @@
   <!-- ============ ARABIC ============ -->
   <section dir="rtl">
     <h1>سياسة الخصوصية — كلمتي</h1>
-    <p class="meta">آخر تحديث: ٨ نوفمبر ٢٠٢٦ &nbsp;•&nbsp; <a href="#english" class="lang-toggle">English ↓</a></p>
+    <p class="meta">آخر تحديث: ٩ نوفمبر ٢٠٢٦ &nbsp;•&nbsp; <a href="#english" class="lang-toggle">English ↓</a></p>
 
     <div class="card">
       <p>
@@ -115,9 +115,9 @@
     <h2>١. ما الذي نجمعه؟</h2>
     <div class="card">
       <p>
-        لا نطلب منك إنشاء حساب، ولا نجمع نحن اسمك أو بريدك الإلكتروني أو رقم هاتفك،
-        ولا يرسل التطبيق أي بيانات إلى خوادمنا. أما شريكنا الإعلاني Unity Ads فيجمع
-        بعض البيانات لعرض الإعلانات، وهي موضّحة في القسم ٣.
+        يمكنك اللعب دون إنشاء حساب. لا نجمع أي بيانات شخصية إلا إذا اخترت تسجيل الدخول
+        لاستخدام ميزة <strong>المجتمع</strong> (القسم ٢). أما شريكنا الإعلاني Unity Ads
+        فيجمع بعض البيانات لعرض الإعلانات، وهي موضّحة في القسم ٤.
       </p>
       <p>
         يحتفظ التطبيق بمعلومات اللعبة محليًا على جهازك فقط:
@@ -132,7 +132,8 @@
       </ul>
       <p>
         هذه البيانات محفوظة في <span class="mono">UserDefaults</span> الخاص بجهازك،
-        ولا تُرسَل إلى أي خادم. عند حذف التطبيق، تُحذف هذه البيانات نهائيًا.
+        ولا تُرسَل إلى أي خادم إلا ما يوضّحه القسم ٢ إذا سجّلت الدخول إلى المجتمع.
+        عند حذف التطبيق، تُحذف البيانات المحلية نهائيًا.
       </p>
       <p>
         إذا سجّلت الدخول إلى <strong>Game Center</strong>، تُرسَل نتائجك وإنجازاتك
@@ -141,7 +142,36 @@
       </p>
     </div>
 
-    <h2>٢. المشتريات داخل التطبيق</h2>
+    <h2>٢. المجتمع (اختياري)</h2>
+    <div class="card">
+      <p>
+        ميزة <strong>المجتمع</strong> تتيح لك إنشاء كلمات يلعبها أصدقاؤك أو الجميع، واللعب
+        في كلمات الآخرين والظهور في لوحات الصدارة. يمكنك فتح كلمة مشاركة دون حساب، لكن
+        اللعب والإنشاء يتطلبان تسجيل الدخول عبر <strong>Apple</strong> أو <strong>Google</strong>.
+        عندها نجمع ونخزّن ما يلي في خدمة Google Firebase:
+      </p>
+      <ul>
+        <li><strong>الحساب:</strong> معرّف مستخدم من Firebase، والاسم والبريد الإلكتروني اللذان تشاركهما Apple أو Google (يمكنك إخفاء بريدك عند استخدام Apple).</li>
+        <li><strong>الملف الشخصي العام:</strong> الاسم المستعار الذي تختاره وصورة اختيارية — يراهما اللاعبون الآخرون.</li>
+        <li><strong>المحتوى الذي تنشئه:</strong> الكلمات والتلميحات، وتفاعلاتك بالرموز التعبيرية، وأي بلاغ ترسله.</li>
+        <li><strong>بيانات اللعب:</strong> تخميناتك في كلمات المجتمع (تُصحَّح على الخادم)، ونتائجك وأوقاتك وترتيبك، وإحصائيات عامة (السلسلة، عدد الانتصارات، نسبة الفوز) لعرض لوحات الصدارة العامة.</li>
+        <li><strong>الاشتراك:</strong> إذا كنت مشتركًا في بريميوم، نتحقق من إيصال Apple على الخادم ونحفظ تاريخ انتهاء الاشتراك فقط.</li>
+        <li><strong>الإشعارات:</strong> رمز الجهاز للإشعارات وفرق التوقيت، لإرسال إشعارات المجتمع التي فعّلتها ولاحترام ساعات الهدوء.</li>
+        <li><strong>حماية الخدمة:</strong> يستخدم التطبيق Firebase App Check (App Attest من Apple) للتأكد من أن الطلبات صادرة من نسخة حقيقية من التطبيق.</li>
+      </ul>
+      <ul>
+        <li>نستخدم هذه البيانات لتشغيل الميزة فقط: لا نبيعها، ولا نستخدمها للإعلانات أو للتتبّع.</li>
+        <li>تُخزَّن البيانات في مراكز بيانات Google Cloud في المملكة العربية السعودية (الدمام) وقطر (الدوحة)، وتخضع <a href="https://firebase.google.com/support/privacy">لشروط خصوصية Firebase</a>.</li>
+        <li>نراجع البلاغات خلال ٢٤ ساعة، وقد نحذف المحتوى المخالف أو نوقف الحساب وفق <a href="https://kalimati-e03f4.web.app/community.html">قواعد المجتمع</a>.</li>
+        <li>
+          <strong>حذف الحساب:</strong> من قائمة ⋯ في شاشة المجتمع اختر «حذف الحساب». يُحذف حسابك
+          وملفك الشخصي وكلماتك ونتائجك وتفاعلاتك وأجهزتك نهائيًا، ونُلغي ربط تسجيل الدخول بـ Apple.
+          قد نحتفظ بالبلاغات التي أُرسلت عن محتوى مخالف لفترة محدودة لأغراض الأمان.
+        </li>
+      </ul>
+    </div>
+
+    <h2>٣. المشتريات داخل التطبيق</h2>
     <div class="card">
       <p>
         تُعالَج جميع المشتريات (النمط الصعب، التلميحات، اشتراك بريميوم، حزم الفئات)
@@ -155,7 +185,7 @@
       </ul>
     </div>
 
-    <h2>٣. الإعلانات وتحليلاتها</h2>
+    <h2>٤. الإعلانات وتحليلاتها</h2>
     <div class="card">
       <p>
         لا يستخدم تطبيق كلمتي أي خدمة تحليلات خاصة به. تعرض النسخة المجانية إعلانات
@@ -197,31 +227,33 @@
       </ul>
     </div>
 
-    <h2>٤. الأذونات</h2>
+    <h2>٥. الأذونات</h2>
     <div class="card">
       <p>
         قد يطلب التطبيق مرة واحدة <strong>إذن التتبّع</strong> (شفافية تتبّع التطبيقات)
         لتخصيص الإعلانات، ورفضه لا يؤثر على اللعب. وقد يطلب إذن
-        <strong>الإشعارات</strong> لتذكيرك بكلمة اليوم. لا يصل التطبيق إلى الموقع الدقيق
+        <strong>الإشعارات</strong> لتذكيرك بكلمة اليوم ولإشعارات المجتمع (يمكنك التحكم بأنواعها
+        من إعدادات الإشعارات داخل المجتمع). لا يصل التطبيق إلى الموقع الدقيق
         ولا الكاميرا ولا الميكروفون ولا جهات الاتصال. الاتصال بالإنترنت مطلوب لتحميل
-        الإعلانات، وإتمام المشتريات واستعادتها، ومزامنة Game Center.
+        الإعلانات، وإتمام المشتريات واستعادتها، ومزامنة Game Center، واستخدام المجتمع.
       </p>
     </div>
 
-    <h2>٥. خصوصية الأطفال</h2>
+    <h2>٦. خصوصية الأطفال</h2>
     <div class="card">
       <p>
-        التطبيق ليس موجّهًا للأطفال دون سن ١٣ عامًا. نحن لا نجمع بيانات شخصية عن أي
-        مستخدم، لكن شريكنا الإعلاني يجمع البيانات الموضّحة في القسم ٣. إذا كنت وليّ أمر
-        وتعتقد أن طفلك دون ١٣ عامًا يستخدم التطبيق، يمكنك إيقاف التتبّع من إعدادات الجهاز
-        أو التواصل معنا عبر البريد أدناه.
+        التطبيق مصنّف لعمر ١٣ عامًا فأكثر، وليس موجّهًا للأطفال دون ذلك. يجب أن يكون عمرك
+        ١٣ عامًا على الأقل لتسجيل الدخول إلى المجتمع. لا نجمع بيانات شخصية إلا لمن يسجّل
+        الدخول (القسم ٢)، ويجمع شريكنا الإعلاني البيانات الموضّحة في القسم ٤. إذا كنت وليّ أمر
+        وتعتقد أن طفلك دون ١٣ عامًا أنشأ حسابًا، تواصل معنا عبر البريد أدناه وسنحذفه.
       </p>
     </div>
 
-    <h2>٦. حقوقك</h2>
+    <h2>٧. حقوقك</h2>
     <div class="card">
       <ul>
         <li>يمكنك حذف جميع بياناتك المحلية بحذف التطبيق من جهازك.</li>
+        <li>يمكنك حذف حساب المجتمع وكل بياناته في أي وقت من داخل التطبيق (القسم ٢)، أو بمراسلتنا.</li>
         <li>يمكنك إيقاف التتبّع في أي وقت من <em>الإعدادات &lt; الخصوصية والأمن &lt; التتبّع</em>.</li>
         <li>لطلب الوصول إلى البيانات التي جمعتها Unity أو حذفها، راجع
           <a href="https://unity.com/legal/privacy-policy">سياسة خصوصية Unity</a>.</li>
@@ -230,7 +262,7 @@
       </ul>
     </div>
 
-    <h2>٧. التغييرات على هذه السياسة</h2>
+    <h2>٨. التغييرات على هذه السياسة</h2>
     <div class="card">
       <p>
         قد نقوم بتحديث هذه السياسة من حين لآخر. أي تحديث سيُنشر على هذه الصفحة
@@ -239,7 +271,7 @@
       </p>
     </div>
 
-    <h2>٨. التواصل معنا</h2>
+    <h2>٩. التواصل معنا</h2>
     <div class="card">
       <p>
         لأي استفسار حول هذه السياسة، يُرجى التواصل عبر البريد الإلكتروني:
@@ -253,7 +285,7 @@
   <!-- ============ ENGLISH ============ -->
   <section class="ltr" id="english">
     <h1>Privacy Policy — Kalimati</h1>
-    <p class="meta">Last updated: November 8, 2026 &nbsp;•&nbsp; <a href="#" class="lang-toggle">العربية ↑</a></p>
+    <p class="meta">Last updated: November 9, 2026 &nbsp;•&nbsp; <a href="#" class="lang-toggle">العربية ↑</a></p>
 
     <div class="card">
       <p>
@@ -265,10 +297,10 @@
     <h2>1. What we collect</h2>
     <div class="card">
       <p>
-        We do not require you to create an account, we do not collect your name,
-        email address, or phone number, and the app sends no data to our own servers.
-        Our advertising partner, Unity Ads, collects some data to show ads; this is
-        described in section 3.
+        You can play without an account. We collect no personal data unless you choose
+        to sign in to use the <strong>Community</strong> feature (section 2). Our
+        advertising partner, Unity Ads, collects some data to show ads; this is
+        described in section 4.
       </p>
       <p>
         The app keeps game state locally on your device:
@@ -283,7 +315,8 @@
       </ul>
       <p>
         This data is stored in your device's <span class="mono">UserDefaults</span>
-        and is never transmitted to any server. Deleting the app permanently removes it.
+        and is not transmitted to any server, except as described in section 2 if you sign
+        in to the Community. Deleting the app permanently removes the local data.
       </p>
       <p>
         If you sign in to <strong>Game Center</strong>, your scores, achievements, and
@@ -292,7 +325,38 @@
       </p>
     </div>
 
-    <h2>2. In-app purchases</h2>
+    <h2>2. Community (optional)</h2>
+    <div class="card">
+      <p>
+        The <strong>Community</strong> feature lets you create words for friends or everyone
+        to play, play other players' words, and appear on leaderboards. You can open a shared
+        word without an account, but playing and creating require signing in with
+        <strong>Apple</strong> or <strong>Google</strong>. We then collect and store the
+        following using Google Firebase:
+      </p>
+      <ul>
+        <li><strong>Account:</strong> a Firebase user ID, and the name and email address shared by Apple or Google (with Apple you can hide your email).</li>
+        <li><strong>Public profile:</strong> the nickname you choose and an optional photo, visible to other players.</li>
+        <li><strong>Content you create:</strong> words and clues, your emoji reactions, and any report you send.</li>
+        <li><strong>Gameplay data:</strong> your guesses on community words (checked on our server), your results, times and rankings, and summary stats (streak, wins, win rate) for the public leaderboards.</li>
+        <li><strong>Subscription:</strong> if you subscribe to Pro, our server verifies Apple's receipt and stores only the expiry date.</li>
+        <li><strong>Notifications:</strong> your device's push token and time-zone offset, to send the Community notifications you enabled and respect quiet hours.</li>
+        <li><strong>Service protection:</strong> the app uses Firebase App Check (Apple App Attest) to confirm requests come from a genuine copy of the app.</li>
+      </ul>
+      <ul>
+        <li>We use this data only to run the feature: we do not sell it or use it for advertising or tracking.</li>
+        <li>The data is stored in Google Cloud data centres in Saudi Arabia (Dammam) and Qatar (Doha) and is subject to the <a href="https://firebase.google.com/support/privacy">Firebase privacy terms</a>.</li>
+        <li>We review reports within 24 hours and may remove content or suspend accounts under the <a href="https://kalimati-e03f4.web.app/community.html">Community rules</a>.</li>
+        <li>
+          <strong>Deleting your account:</strong> in the Community screen open the ⋯ menu and choose
+          "Delete account". Your account, profile, words, results, reactions and devices are permanently
+          deleted and your Sign in with Apple authorization is revoked. Reports filed about
+          rule-breaking content may be kept for a limited time for safety purposes.
+        </li>
+      </ul>
+    </div>
+
+    <h2>3. In-app purchases</h2>
     <div class="card">
       <p>
         All purchases (Hard Mode, hint packs, Kalimati Pro subscription, category packs)
@@ -306,7 +370,7 @@
       </ul>
     </div>
 
-    <h2>3. Advertising &amp; ad analytics</h2>
+    <h2>4. Advertising &amp; ad analytics</h2>
     <div class="card">
       <p>
         Kalimati uses no analytics services of its own. The free version of the
@@ -351,32 +415,35 @@
       </ul>
     </div>
 
-    <h2>4. Permissions</h2>
+    <h2>5. Permissions</h2>
     <div class="card">
       <p>
         The app may ask once for <strong>tracking permission</strong>
         (App Tracking Transparency) so that ads can be personalised; declining has
         no effect on gameplay. It may also ask to send <strong>notifications</strong>
-        for daily-word reminders. It does not access precise location, camera,
+        for daily-word reminders and Community notifications (you choose which kinds in the
+        Community notification settings). It does not access precise location, camera,
         microphone, or contacts. Internet connectivity is required to load
-        advertisements, complete and restore purchases, and sync Game Center.
+        advertisements, complete and restore purchases, sync Game Center, and use the Community.
       </p>
     </div>
 
-    <h2>5. Children's privacy</h2>
+    <h2>6. Children's privacy</h2>
     <div class="card">
       <p>
-        The app is not directed at children under 13. We do not collect personal data
-        about any user, but our advertising partner collects the data described in
-        section 3. If you are a parent and believe your child under 13 is using the app,
-        you can turn off tracking in the device's settings or contact us at the address below.
+        The app is rated 13+ and is not directed at children under 13. You must be at least
+        13 to sign in to the Community. We collect personal data only from players who sign
+        in (section 2), and our advertising partner collects the data described in section 4.
+        If you are a parent and believe your child under 13 has created an account, contact us
+        at the address below and we will delete it.
       </p>
     </div>
 
-    <h2>6. Your rights</h2>
+    <h2>7. Your rights</h2>
     <div class="card">
       <ul>
         <li>You can delete all local data by uninstalling the app.</li>
+        <li>You can delete your Community account and all its data at any time inside the app (section 2) or by emailing us.</li>
         <li>You can turn off tracking at any time in <em>Settings &gt; Privacy &amp; Security &gt; Tracking</em>.</li>
         <li>To access or delete data collected by Unity, see the
           <a href="https://unity.com/legal/privacy-policy">Unity Privacy Policy</a>.</li>
@@ -385,7 +452,7 @@
       </ul>
     </div>
 
-    <h2>7. Changes to this policy</h2>
+    <h2>8. Changes to this policy</h2>
     <div class="card">
       <p>
         We may update this policy from time to time. Any update will be posted on
@@ -394,7 +461,7 @@
       </p>
     </div>
 
-    <h2>8. Contact</h2>
+    <h2>9. Contact</h2>
     <div class="card">
       <p>
         For any question about this policy, please email
